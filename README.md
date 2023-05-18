@@ -1,3 +1,3 @@
 # prueba de messages de error. 
 
-Prueba_Errores_REST
+Prueba manejo de errores en servicios REST
