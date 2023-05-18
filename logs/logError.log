@@ -1,0 +1,255 @@
+08:50:30 [thread_id="21"] - (INFO) - [org.hibernate.validator.internal.util.Version] HV000001: Hibernate Validator 6.2.5.Final
+08:50:30 [thread_id="19"] - (INFO) - [uy.com.s4b.ManejoErrorApplication] Starting ManejoErrorApplication using Java 11.0.17 on MacBookPro-Alf.local with PID 6302 (/Users/arpela/Documents/proyectosPruebas/Prueba_Errores_REST/target/classes started by arpela in /Users/arpela/Documents/proyectosPruebas/Prueba_Errores_REST)
+08:50:30 [thread_id="19"] - (INFO) - [uy.com.s4b.ManejoErrorApplication] No active profile set, falling back to 1 default profile: "default"
+08:50:30 [thread_id="19"] - (INFO) - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+08:50:30 [thread_id="19"] - (INFO) - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+08:50:31 [thread_id="19"] - (INFO) - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08:50:31 [thread_id="19"] - (INFO) - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+08:50:32 [thread_id="19"] - (INFO) - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+08:50:32 [thread_id="19"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+08:50:32 [thread_id="19"] - (INFO) - [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+08:50:32 [thread_id="19"] - (INFO) - [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.65]
+08:50:32 [thread_id="19"] - (INFO) - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+08:50:32 [thread_id="19"] - (INFO) - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1490 ms
+08:50:32 [thread_id="19"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+08:50:32 [thread_id="19"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+08:50:32 [thread_id="19"] - (INFO) - [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+08:50:32 [thread_id="19"] - (INFO) - [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+08:50:32 [thread_id="19"] - (INFO) - [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.11.Final
+08:50:32 [thread_id="19"] - (INFO) - [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08:50:32 [thread_id="19"] - (INFO) - [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+08:50:33 [thread_id="19"] - (INFO) - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08:50:33 [thread_id="19"] - (INFO) - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+08:50:33 [thread_id="19"] - (WARN) - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08:50:33 [thread_id="19"] - (INFO) - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+08:50:33 [thread_id="19"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+08:50:33 [thread_id="19"] - (INFO) - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+08:50:33 [thread_id="19"] - (INFO) - [uy.com.s4b.ManejoErrorApplication] Started ManejoErrorApplication in 3.743 seconds (JVM running for 4.753)
+08:51:22 [thread_id="33"] - (INFO) - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:51:22 [thread_id="33"] - (INFO) - [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+08:51:22 [thread_id="33"] - (INFO) - [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 2 ms
+08:51:23 [thread_id="33"] - (INFO) - [uy.com.s4b.controller.api.impl.RestControlerAPIControler] ############################## 
+08:51:23 [thread_id="33"] - (INFO) - [uy.com.s4b.controller.api.impl.RestControlerAPIControler] Dato recibido: 
+08:51:23 [thread_id="33"] - (INFO) - [uy.com.s4b.controller.api.impl.RestControlerAPIControler] EmployeeVO[email=lore@antel.com.uy,employeeId=1,firstName=Lorena,lastName=Gastellu]
+08:51:23 [thread_id="33"] - (INFO) - [uy.com.s4b.controller.api.impl.RestControlerAPIControler] ############################## 
+08:51:40 [thread_id="35"] - (INFO) - [uy.com.s4b.controller.api.impl.RestControlerAPIControler] ############################## 
+08:51:40 [thread_id="35"] - (INFO) - [uy.com.s4b.controller.api.impl.RestControlerAPIControler] Dato recibido: 
+08:51:40 [thread_id="35"] - (INFO) - [uy.com.s4b.controller.api.impl.RestControlerAPIControler] EmployeeVO[email=lore@antel.com.uy,employeeId=2,firstName=Alfredo,lastName=Rodriguez]
+08:51:40 [thread_id="35"] - (INFO) - [uy.com.s4b.controller.api.impl.RestControlerAPIControler] ############################## 
+08:51:50 [thread_id="36"] - (WARN) - [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<uy.com.s4b.vo.EmployeeVO> uy.com.s4b.controller.api.impl.RestControlerAPIControler.addEmployee(uy.com.s4b.vo.EmployeeVO): [Field error in object 'employeeVO' on field 'email': rejected value [loreantel.com.uy]; codes [Email.employeeVO.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeVO.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@50369c2e,.*]; default message [email no esta valido]] ]
+08:52:24 [thread_id="34"] - (WARN) - [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<uy.com.s4b.vo.EmployeeVO> uy.com.s4b.controller.api.impl.RestControlerAPIControler.addEmployee(uy.com.s4b.vo.EmployeeVO) with 2 errors: [Field error in object 'employeeVO' on field 'email': rejected value [loreantel.com.uy]; codes [Email.employeeVO.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeVO.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@50369c2e,.*]; default message [email no esta valido]] [Field error in object 'employeeVO' on field 'lastName': rejected value [null]; codes [NotEmpty.employeeVO.lastName,NotEmpty.lastName,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeVO.lastName,lastName]; arguments []; default message [lastName]]; default message [El nombre no puede estar vacio]] ]
+08:52:31 [thread_id="37"] - (WARN) - [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<uy.com.s4b.vo.EmployeeVO> uy.com.s4b.controller.api.impl.RestControlerAPIControler.addEmployee(uy.com.s4b.vo.EmployeeVO): [Field error in object 'employeeVO' on field 'lastName': rejected value [null]; codes [NotEmpty.employeeVO.lastName,NotEmpty.lastName,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeVO.lastName,lastName]; arguments []; default message [lastName]]; default message [El nombre no puede estar vacio]] ]
+08:53:06 [thread_id="38"] - (WARN) - [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<uy.com.s4b.vo.EmployeeVO> uy.com.s4b.controller.api.impl.RestControlerAPIControler.addEmployee(uy.com.s4b.vo.EmployeeVO) with 2 errors: [Field error in object 'employeeVO' on field 'lastName': rejected value []; codes [NotEmpty.employeeVO.lastName,NotEmpty.lastName,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeVO.lastName,lastName]; arguments []; default message [lastName]]; default message [El nombre no puede estar vacio]] [Field error in object 'employeeVO' on field 'email': rejected value [loreantel.com.uy]; codes [Email.employeeVO.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeVO.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@50369c2e,.*]; default message [email no esta valido]] ]
+08:53:13 [thread_id="39"] - (WARN) - [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<uy.com.s4b.vo.EmployeeVO> uy.com.s4b.controller.api.impl.RestControlerAPIControler.addEmployee(uy.com.s4b.vo.EmployeeVO): [Field error in object 'employeeVO' on field 'lastName': rejected value []; codes [NotEmpty.employeeVO.lastName,NotEmpty.lastName,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeVO.lastName,lastName]; arguments []; default message [lastName]]; default message [El nombre no puede estar vacio]] ]
+08:56:46 [thread_id="30"] - (INFO) - [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+08:56:46 [thread_id="31"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Pausing ProtocolHandler ["http-nio-8080"]
+08:56:46 [thread_id="31"] - (INFO) - [org.apache.catalina.core.StandardService] Stopping service [Tomcat]
+08:56:46 [thread_id="31"] - (INFO) - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Destroying Spring FrameworkServlet 'dispatcherServlet'
+08:56:46 [thread_id="31"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Stopping ProtocolHandler ["http-nio-8080"]
+08:56:46 [thread_id="31"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Destroying ProtocolHandler ["http-nio-8080"]
+08:56:46 [thread_id="31"] - (INFO) - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+08:56:46 [thread_id="31"] - (INFO) - [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+08:56:46 [thread_id="31"] - (WARN) - [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+08:56:46 [thread_id="31"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+08:56:46 [thread_id="31"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+08:56:47 [thread_id="53"] - (INFO) - [uy.com.s4b.ManejoErrorApplication] Starting ManejoErrorApplication using Java 11.0.17 on MacBookPro-Alf.local with PID 6302 (/Users/arpela/Documents/proyectosPruebas/Prueba_Errores_REST/target/classes started by arpela in /Users/arpela/Documents/proyectosPruebas/Prueba_Errores_REST)
+08:56:47 [thread_id="53"] - (INFO) - [uy.com.s4b.ManejoErrorApplication] No active profile set, falling back to 1 default profile: "default"
+08:56:47 [thread_id="53"] - (INFO) - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08:56:47 [thread_id="53"] - (INFO) - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+08:56:47 [thread_id="53"] - (INFO) - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+08:56:47 [thread_id="53"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+08:56:47 [thread_id="53"] - (INFO) - [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+08:56:47 [thread_id="53"] - (INFO) - [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.65]
+08:56:47 [thread_id="53"] - (INFO) - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+08:56:47 [thread_id="53"] - (INFO) - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 345 ms
+08:56:47 [thread_id="53"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-2 - Starting...
+08:56:47 [thread_id="53"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-2 - Start completed.
+08:56:47 [thread_id="53"] - (INFO) - [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+08:56:47 [thread_id="53"] - (INFO) - [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+08:56:47 [thread_id="53"] - (INFO) - [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+08:56:47 [thread_id="53"] - (INFO) - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08:56:47 [thread_id="53"] - (INFO) - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+08:56:47 [thread_id="53"] - (WARN) - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08:56:47 [thread_id="53"] - (INFO) - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+08:56:47 [thread_id="53"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+08:56:47 [thread_id="53"] - (INFO) - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+08:56:47 [thread_id="53"] - (INFO) - [uy.com.s4b.ManejoErrorApplication] Started ManejoErrorApplication in 1.01 seconds (JVM running for 378.616)
+08:56:47 [thread_id="53"] - (INFO) - [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+08:57:00 [thread_id="61"] - (INFO) - [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+08:57:00 [thread_id="50"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Pausing ProtocolHandler ["http-nio-8080"]
+08:57:00 [thread_id="50"] - (INFO) - [org.apache.catalina.core.StandardService] Stopping service [Tomcat]
+08:57:00 [thread_id="50"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Stopping ProtocolHandler ["http-nio-8080"]
+08:57:00 [thread_id="50"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Destroying ProtocolHandler ["http-nio-8080"]
+08:57:00 [thread_id="50"] - (INFO) - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+08:57:00 [thread_id="50"] - (INFO) - [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+08:57:00 [thread_id="50"] - (WARN) - [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+08:57:00 [thread_id="50"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-2 - Shutdown initiated...
+08:57:00 [thread_id="50"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-2 - Shutdown completed.
+08:57:00 [thread_id="77"] - (INFO) - [uy.com.s4b.ManejoErrorApplication] Starting ManejoErrorApplication using Java 11.0.17 on MacBookPro-Alf.local with PID 6302 (/Users/arpela/Documents/proyectosPruebas/Prueba_Errores_REST/target/classes started by arpela in /Users/arpela/Documents/proyectosPruebas/Prueba_Errores_REST)
+08:57:00 [thread_id="77"] - (INFO) - [uy.com.s4b.ManejoErrorApplication] No active profile set, falling back to 1 default profile: "default"
+08:57:00 [thread_id="77"] - (INFO) - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08:57:00 [thread_id="77"] - (INFO) - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+08:57:01 [thread_id="77"] - (INFO) - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+08:57:01 [thread_id="77"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+08:57:01 [thread_id="77"] - (INFO) - [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+08:57:01 [thread_id="77"] - (INFO) - [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.65]
+08:57:01 [thread_id="77"] - (INFO) - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+08:57:01 [thread_id="77"] - (INFO) - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 299 ms
+08:57:01 [thread_id="77"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-3 - Starting...
+08:57:01 [thread_id="77"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-3 - Start completed.
+08:57:01 [thread_id="77"] - (INFO) - [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+08:57:01 [thread_id="77"] - (INFO) - [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+08:57:01 [thread_id="77"] - (INFO) - [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+08:57:01 [thread_id="77"] - (INFO) - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08:57:01 [thread_id="77"] - (INFO) - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+08:57:01 [thread_id="77"] - (WARN) - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08:57:01 [thread_id="77"] - (INFO) - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+08:57:01 [thread_id="77"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+08:57:01 [thread_id="77"] - (INFO) - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+08:57:01 [thread_id="77"] - (INFO) - [uy.com.s4b.ManejoErrorApplication] Started ManejoErrorApplication in 0.681 seconds (JVM running for 392.187)
+08:57:01 [thread_id="77"] - (INFO) - [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+08:59:04 [thread_id="85"] - (INFO) - [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+08:59:04 [thread_id="74"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Pausing ProtocolHandler ["http-nio-8080"]
+08:59:04 [thread_id="74"] - (INFO) - [org.apache.catalina.core.StandardService] Stopping service [Tomcat]
+08:59:04 [thread_id="74"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Stopping ProtocolHandler ["http-nio-8080"]
+08:59:04 [thread_id="74"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Destroying ProtocolHandler ["http-nio-8080"]
+08:59:04 [thread_id="74"] - (INFO) - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+08:59:04 [thread_id="74"] - (INFO) - [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+08:59:04 [thread_id="74"] - (WARN) - [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+08:59:04 [thread_id="74"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-3 - Shutdown initiated...
+08:59:04 [thread_id="74"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-3 - Shutdown completed.
+08:59:04 [thread_id="101"] - (INFO) - [uy.com.s4b.ManejoErrorApplication] Starting ManejoErrorApplication using Java 11.0.17 on MacBookPro-Alf.local with PID 6302 (/Users/arpela/Documents/proyectosPruebas/Prueba_Errores_REST/target/classes started by arpela in /Users/arpela/Documents/proyectosPruebas/Prueba_Errores_REST)
+08:59:04 [thread_id="101"] - (INFO) - [uy.com.s4b.ManejoErrorApplication] No active profile set, falling back to 1 default profile: "default"
+08:59:04 [thread_id="101"] - (INFO) - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08:59:04 [thread_id="101"] - (INFO) - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+08:59:04 [thread_id="101"] - (INFO) - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+08:59:04 [thread_id="101"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+08:59:04 [thread_id="101"] - (INFO) - [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+08:59:04 [thread_id="101"] - (INFO) - [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.65]
+08:59:04 [thread_id="101"] - (INFO) - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+08:59:04 [thread_id="101"] - (INFO) - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 314 ms
+08:59:04 [thread_id="101"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-4 - Starting...
+08:59:04 [thread_id="101"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-4 - Start completed.
+08:59:04 [thread_id="101"] - (INFO) - [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+08:59:04 [thread_id="101"] - (INFO) - [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+08:59:04 [thread_id="101"] - (INFO) - [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+08:59:05 [thread_id="101"] - (INFO) - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08:59:05 [thread_id="101"] - (INFO) - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+08:59:05 [thread_id="101"] - (WARN) - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08:59:05 [thread_id="101"] - (INFO) - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+08:59:05 [thread_id="101"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+08:59:05 [thread_id="101"] - (INFO) - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+08:59:05 [thread_id="101"] - (INFO) - [uy.com.s4b.ManejoErrorApplication] Started ManejoErrorApplication in 0.843 seconds (JVM running for 516.089)
+08:59:05 [thread_id="101"] - (INFO) - [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+08:59:06 [thread_id="122"] - (INFO) - [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] Application shutdown requested.
+08:59:06 [thread_id="122"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Pausing ProtocolHandler ["http-nio-8080"]
+08:59:06 [thread_id="122"] - (INFO) - [org.apache.catalina.core.StandardService] Stopping service [Tomcat]
+08:59:06 [thread_id="122"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Stopping ProtocolHandler ["http-nio-8080"]
+08:59:06 [thread_id="122"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Destroying ProtocolHandler ["http-nio-8080"]
+08:59:06 [thread_id="122"] - (INFO) - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+08:59:06 [thread_id="122"] - (INFO) - [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+08:59:06 [thread_id="108"] - (ERROR) - [com.zaxxer.hikari.pool.HikariPool] HikariPool-4 - Error thrown while acquiring connection from data source
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos esta abierta en modo EXCLUSIVO; no puede abrir conexiones adicionales
+The database is open in exclusive mode; can not open additional connections [90135-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:188) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.checkSuspended(SessionLocal.java:1240) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.isOpen(SessionLocal.java:1173) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.waitIfExclusiveModeEnabled(SessionLocal.java:1486) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Command.executeQuery(Command.java:180) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcConnection.isReadOnly(JdbcConnection.java:538) ~[h2-2.1.214.jar:2.1.214]
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:408) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[HikariCP-4.0.3.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+08:59:06 [thread_id="122"] - (WARN) - [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+08:59:06 [thread_id="122"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-4 - Shutdown initiated...
+08:59:06 [thread_id="122"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-4 - Shutdown completed.
+09:03:23 [thread_id="25"] - (INFO) - [org.hibernate.validator.internal.util.Version] HV000001: Hibernate Validator 6.2.5.Final
+09:03:23 [thread_id="23"] - (INFO) - [uy.com.s4b.ManejoErrorApplication] Starting ManejoErrorApplication using Java 11.0.17 on MacBookPro-Alf.local with PID 6467 (/Users/arpela/Documents/proyectosPruebas/Prueba_Errores_REST/target/classes started by arpela in /Users/arpela/Documents/proyectosPruebas/Prueba_Errores_REST)
+09:03:23 [thread_id="23"] - (INFO) - [uy.com.s4b.ManejoErrorApplication] No active profile set, falling back to 1 default profile: "default"
+09:03:23 [thread_id="23"] - (INFO) - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:03:23 [thread_id="23"] - (INFO) - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:03:23 [thread_id="23"] - (INFO) - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:03:24 [thread_id="23"] - (INFO) - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+09:03:24 [thread_id="23"] - (INFO) - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8080 (http)
+09:03:24 [thread_id="23"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+09:03:24 [thread_id="23"] - (INFO) - [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+09:03:24 [thread_id="23"] - (INFO) - [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.65]
+09:03:24 [thread_id="23"] - (INFO) - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+09:03:24 [thread_id="23"] - (INFO) - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1489 ms
+09:03:24 [thread_id="23"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+09:03:24 [thread_id="23"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+09:03:24 [thread_id="23"] - (INFO) - [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+09:03:25 [thread_id="23"] - (INFO) - [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+09:03:25 [thread_id="23"] - (INFO) - [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.6.11.Final
+09:03:25 [thread_id="23"] - (INFO) - [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:03:25 [thread_id="23"] - (INFO) - [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09:03:25 [thread_id="23"] - (INFO) - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:03:25 [thread_id="23"] - (INFO) - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:03:26 [thread_id="23"] - (WARN) - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09:03:26 [thread_id="23"] - (INFO) - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+09:03:26 [thread_id="23"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+09:03:26 [thread_id="23"] - (INFO) - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8080 (http) with context path ''
+09:03:26 [thread_id="23"] - (INFO) - [uy.com.s4b.ManejoErrorApplication] Started ManejoErrorApplication in 3.78 seconds (JVM running for 5.066)
+09:05:39 [thread_id="37"] - (INFO) - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:05:39 [thread_id="37"] - (INFO) - [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+09:05:39 [thread_id="37"] - (INFO) - [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 2 ms
+09:05:39 [thread_id="37"] - (INFO) - [uy.com.s4b.controller.api.impl.RestControlerAPIControler] ############################## 
+09:05:39 [thread_id="37"] - (INFO) - [uy.com.s4b.controller.api.impl.RestControlerAPIControler] Dato recibido: 
+09:05:39 [thread_id="37"] - (INFO) - [uy.com.s4b.controller.api.impl.RestControlerAPIControler] EmployeeVO[email=lore@antel.com.uy,employeeId=1,firstName=Alfredo,lastName=Rodriguez]
+09:05:39 [thread_id="37"] - (INFO) - [uy.com.s4b.controller.api.impl.RestControlerAPIControler] ############################## 
+09:05:51 [thread_id="39"] - (INFO) - [uy.com.s4b.controller.api.impl.RestControlerAPIControler] ############################## 
+09:05:51 [thread_id="39"] - (INFO) - [uy.com.s4b.controller.api.impl.RestControlerAPIControler] Dato recibido: 
+09:05:51 [thread_id="39"] - (INFO) - [uy.com.s4b.controller.api.impl.RestControlerAPIControler] EmployeeVO[email=lore@antel.com.uy,employeeId=2,firstName=Lorena,lastName=Gastellu]
+09:05:51 [thread_id="39"] - (INFO) - [uy.com.s4b.controller.api.impl.RestControlerAPIControler] ############################## 
+09:07:20 [thread_id="50"] - (INFO) - [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] Application shutdown requested.
+09:07:20 [thread_id="50"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Pausing ProtocolHandler ["http-nio-8080"]
+09:07:20 [thread_id="50"] - (INFO) - [org.apache.catalina.core.StandardService] Stopping service [Tomcat]
+09:07:20 [thread_id="50"] - (INFO) - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Destroying Spring FrameworkServlet 'dispatcherServlet'
+09:07:20 [thread_id="50"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Stopping ProtocolHandler ["http-nio-8080"]
+09:07:20 [thread_id="50"] - (INFO) - [org.apache.coyote.http11.Http11NioProtocol] Destroying ProtocolHandler ["http-nio-8080"]
+09:07:20 [thread_id="50"] - (INFO) - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+09:07:20 [thread_id="50"] - (INFO) - [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+09:07:20 [thread_id="53"] - (ERROR) - [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Error thrown while acquiring connection from data source
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos esta abierta en modo EXCLUSIVO; no puede abrir conexiones adicionales
+The database is open in exclusive mode; can not open additional connections [90135-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:188) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.checkSuspended(SessionLocal.java:1240) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.isOpen(SessionLocal.java:1173) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.waitIfExclusiveModeEnabled(SessionLocal.java:1486) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Command.executeQuery(Command.java:180) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcConnection.isReadOnly(JdbcConnection.java:538) ~[h2-2.1.214.jar:2.1.214]
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:408) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[HikariCP-4.0.3.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+09:07:20 [thread_id="50"] - (WARN) - [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+09:07:20 [thread_id="50"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+09:07:21 [thread_id="50"] - (INFO) - [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
